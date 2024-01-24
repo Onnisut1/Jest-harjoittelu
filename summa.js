@@ -1,9 +1,14 @@
 function sum(a,b){
-    if(typeof a =='number' || typeof b =='number'){
-    return a + b;
+    if(a === undefined || a === null){
+        return "Syötä numeroita";
     }
     else{
-        return "Numero"
+        if(typeof a == 'number' && typeof b == 'number'){
+        return a + b;
+        }
+        else{
+            return "Syötä numeroita"
+        }
     }
 }
 module.exports = sum;

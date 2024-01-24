@@ -1,6 +1,6 @@
 function onkoTaysiIkainen(ika){
-    if(typeof ika !=='number'){
-        throw new Error("Anna NUMERO")
+    if(typeof ika !== 'number'){
+        return "Anna NUMERO"
     }
     else{
         if(ika >= 18){
