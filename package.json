@@ -1,0 +1,14 @@
+{
+  "name": "jest_testaus",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Tehtävä1.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Onni",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
